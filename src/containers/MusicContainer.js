@@ -13,4 +13,20 @@ class MusicContainer extends React.Components {
   }
 }
 
+componentDidMount() {
+  const url = 'https://itunes.apple.com/gb/rss/topsongs/limit=20/json';
+  const xhr = new XMLHttpRequest();
+  xhr.open('GET', url);
+  xhr.addEventListener('load', () => {
+    if(xhr.status !== 200) return;
+    const jsonString = xhr.responseText;
+    const data = JSON.parse(jsonString);
+    this.setState({
+      music: data.feed.entry
+    });
+  });
+
+  xhr.send();
+}
+
 export default MusicContainer;
