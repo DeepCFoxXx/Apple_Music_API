@@ -29,4 +29,11 @@ componentDidMount() {
   xhr.send();
 }
 
+handleMusicSelected(index) {
+  const selectedMusic = this.state.music[index];
+  this.setState({
+    currentMusic: selectedMusic
+  });
+}
+
 export default MusicContainer;
