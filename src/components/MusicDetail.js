@@ -2,7 +2,7 @@ import React from 'react';
 
 const MusicDetail = (props) => {
   if(!props.song) return null;
-  console.log(prop.song["link"][1]["attributes"]["href"]);
+  console.log(props.song["link"][1]["attributes"]["href"]);
   return (
     <div className='song'>
     <h3>{props.song["im:name"]["label"]}</h3>

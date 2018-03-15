@@ -2,7 +2,7 @@ import React from 'react';
 import MusicDetail from '../components/MusicDetail.js';
 import MusicSelector from '../components/MusicSelector.js';
 
-class MusicContainer extends React.Components {
+class MusicContainer extends React.Component {
   constructor(props){
     super(props);
     this.state = {
