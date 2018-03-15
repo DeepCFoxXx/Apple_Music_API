@@ -12,6 +12,13 @@ const MusicSelector = (props) => {
     return <option value={index} key={index}>{song["im:name"]["label"]}</option>
   });
 
+  return(
+    <select id="music-selector" onChange={handleChange} defaultValue="default">
+      <option disabled value="default">Music Choice</option>
+      {options}
+    </select>
+  )
+
 }
 
 export default MusicSelector;
