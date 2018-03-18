@@ -1,7 +1,7 @@
 h2 {
   font-size: 45px;
   font-family: sans-serif;
-  text-decoration: underline;
+  text-decoration: ;
   text-align: left;
   color: hotpink;
 }
@@ -16,15 +16,18 @@ select{
   font-weight: 400;
   padding: 4px;
   width: 300px;
-  align-content: center;
-  align-self: center;
-  text-align: left;
+  align-content: right;
+  align-self: right;
+  text-align: right;
   padding-left: 60px;
+  position:absolute;
+  top:40px;
+  right:0;
 }
 
-/* #music-selector {
-  align-content: center;
-  align-self: center;
-  text-align: center;
+#music-selector {
+  align-content: right;
+  align-self: right;
+  text-align: right;
   padding-left: 60px;
-} */
+}
