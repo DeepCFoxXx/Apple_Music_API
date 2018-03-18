@@ -6,6 +6,16 @@ h2 {
   color: hotpink;
 }
 
+h3 {
+  color: hotpink;
+  text-align: left;
+}
+
+h4 {
+  color: hotpink;
+  text-align: left;
+}
+
 select{
   height: 30px;
   background: transparent;
@@ -23,11 +33,4 @@ select{
   position:absolute;
   top:40px;
   right:0;
-}
-
-#music-selector {
-  align-content: right;
-  align-self: right;
-  text-align: right;
-  padding-left: 60px;
 }
