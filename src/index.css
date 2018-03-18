@@ -1,5 +1,9 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
+  background-image: url("https://wallup.net/wp-content/uploads/2017/11/23/529278-Princess_Leia-drawing-Star_Wars-fan_art.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  align-content: center;
+  align-self: center;
+  text-align: center;
 }
