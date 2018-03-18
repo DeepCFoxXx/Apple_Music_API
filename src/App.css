@@ -18,8 +18,15 @@ h4 {
 
 img{
   position:absolute;
-  bottom: 10px;
+  bottom: 46px;
   right: 430px;
+  border: 3px solid hotpink;
+}
+
+audio{
+  position:absolute;
+  bottom: 10px;
+  right: 360px;
   border: 3px solid hotpink;
 }
 
@@ -39,5 +46,5 @@ select{
   padding-left: 60px;
   position:absolute;
   top:40px;
-  right:0;
+  right:10px;
 }
